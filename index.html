@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nada El Kamel — Data Analyst · AI/NLP Researcher</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,500&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d0a07;--card:#181410;--cream:#f5ead9;--mute:#b3a58f;--gold:#e8b555;--amber:#d98a3d;--line:rgba(245,234,217,.1);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(60% 40% at 20% 0,#1b140b,transparent),var(--bg);color:var(--cream);font-family:"DM Sans",system-ui,sans-serif;line-height:1.65}
+.s{font-family:Fraunces,Georgia,serif;font-weight:600;letter-spacing:-.02em}
+a{color:inherit;text-decoration:none}.w{max-width:1240px;margin:0 auto;padding:0 32px}
+nav{display:flex;align-items:center;justify-content:space-between;padding:20px 0}
+.brand{display:flex;align-items:center;gap:14px;font-size:22px}
+.brand img{width:50px;height:50px;border-radius:50%;object-fit:cover;border:1px solid var(--line)}
+.links{display:flex;gap:40px;color:var(--mute);font-size:16px}.links a:hover{color:var(--gold)}
+.pill{display:inline-block;padding:14px 26px;border-radius:999px;font-weight:500;border:1px solid var(--line);transition:.2s}
+.pill.g{background:var(--gold);color:#1a1206;border-color:var(--gold)}.pill:hover{transform:translateY(-2px)}
+@media(max-width:760px){.links{display:none}}
+.hero{display:grid;grid-template-columns:1.25fr .75fr;gap:60px;align-items:center;padding:60px 0 70px}
+@media(max-width:900px){.hero{grid-template-columns:1fr}.pt{order:-1;max-width:340px;margin:0 auto}}
+.eb{display:flex;align-items:center;gap:16px;font-size:13px;letter-spacing:.28em;text-transform:uppercase;color:var(--mute)}
+.eb:before{content:"";width:50px;height:2px;background:var(--gold)}
+h1{font-size:clamp(46px,7vw,86px);line-height:1;margin:34px 0 34px}
+em{font-style:italic;font-weight:500;background:linear-gradient(90deg,var(--gold),var(--amber));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{font-size:20px;color:var(--mute);max-width:560px;line-height:1.75}
+.cta{display:flex;gap:14px;flex-wrap:wrap;margin:34px 0 48px}
+.stats{display:flex;gap:44px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:30px;max-width:560px}
+.stats b{display:block;font-family:Fraunces,Georgia,serif;font-size:40px;color:var(--gold);font-weight:500;line-height:1.1}
+.stats span{font-size:14px;color:var(--mute);display:block;max-width:150px}
+.arch{position:relative;aspect-ratio:4/5;border-radius:999px 999px 20px 20px;overflow:hidden;border:1px solid var(--line);box-shadow:0 0 90px rgba(232,181,85,.12)}
+.arch img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+.arch:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 60%,rgba(13,10,7,.95))}
+.cap{position:absolute;left:24px;bottom:20px;z-index:2}.cap b{font-family:Fraunces,Georgia,serif;font-size:24px;display:block}.cap span{font-size:14px;color:var(--mute)}
+.sec{padding:70px 0 40px}
+.hd{display:flex;align-items:baseline;gap:18px;margin-bottom:36px}.hd i{font-family:Fraunces,Georgia,serif;color:var(--gold);font-size:18px}.hd h2{font-size:clamp(34px,4.5vw,52px);margin:0}
+.pr{display:grid;grid-template-columns:140px 1fr auto;gap:20px;padding:38px 0;border-top:1px solid var(--line)}.pr:last-child{border-bottom:1px solid var(--line)}
+@media(max-width:760px){.pr{grid-template-columns:1fr}}
+.n{font-family:Fraunces,Georgia,serif;color:var(--gold)}
+.pr h3{font-size:34px;margin:0 0 6px}.k{font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:var(--mute)}
+.pr p{color:var(--mute);max-width:720px;font-size:17px;margin:14px 0 0}
+.tg{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end;max-width:200px;align-content:flex-start}
+.tg span,.chips span{border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:14px;color:var(--mute)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:60px}@media(max-width:900px){.two{grid-template-columns:1fr}}
+.tl{position:relative;padding-left:40px}.tl:before{content:"";position:absolute;left:5px;top:8px;bottom:8px;width:1px;background:var(--line)}
+.it{position:relative;margin-bottom:38px}.it:before{content:"";position:absolute;left:-40px;top:6px;width:11px;height:11px;border-radius:50%;background:#6b5c48}.it.f:before{background:var(--gold)}
+.it h4{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:26px;margin:4px 0 8px;line-height:1.25}.it h4 span{color:var(--mute)}
+.it p{margin:0;color:var(--mute);max-width:440px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:32px;padding:36px}.box h3{font-size:24px;margin:0 0 26px}
+.sk{margin-bottom:22px}.sk div{display:flex;justify-content:space-between}.sk div span:last-child{color:var(--gold)}
+.bar{height:3px;background:var(--line);border-radius:3px;margin-top:8px}.bar i{display:block;height:100%;border-radius:3px;background:linear-gradient(90deg,var(--amber),var(--gold))}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.edu{margin-top:50px}.edu h3{font-size:24px;margin:0 0 24px}
+.cta2{background:var(--card);border:1px solid var(--line);border-radius:40px;padding:64px;margin:60px 0;background-image:radial-gradient(40% 60% at 90% 30%,rgba(217,138,61,.16),transparent)}
+.cta2 h2{font-size:clamp(36px,5vw,60px);line-height:1.1;margin:0 0 20px;max-width:760px}.cta2 p{color:var(--mute);font-size:19px;max-width:520px}
+@media(max-width:600px){.cta2{padding:36px 24px}}
+footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;border-top:1px solid var(--line);padding:32px 0 44px;color:var(--mute);font-size:15px}
+</style></head><body><div class="w">
+    
+<nav><a href="#top" class="brand s">Nada El Kamel</a>
+<div class="links"><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div>
+<a class="pill g" href="#contact">Get in touch</a></nav>
+
+<header class="hero" id="top"><div>
+<div class="eb">Data Scientist · Medical AI Researcher</div>
+<h1 class="s">Turning messy data into <em>decisions.</em></h1>
+<p class="lead">I'm Nada, a Master's research student at ENSI and Medical AI researcher at RIADI Laboratory, building NLP systems, Power BI dashboards, and full-stack tools with Python, SQL and a curiosity for how models actually behave.</p>
+<div class="cta"><a class="pill g" href="#projects">View projects</a><a class="pill" href="https://www.linkedin.com/in/nada-el-kamel-82919a221/" target="_blank" rel="noopener">Connect on LinkedIn</a></div>
+</div>
+<div class="pt"><div class="arch"><img src="nada.jpg">
+</header>
+
+<section class="sec" id="projects"><div class="hd"><i>Selected work</i><h2 class="s">Projects</h2></div>
+<div class="pr"><div class="n">01</div><div><h3 class="s">Food Recommender Chatbot</h3><div class="k">AI · NLP · Team of 3</div><p>A conversational assistant that gives clear, interactive, non-medical dietary recommendations tailored to each user's profile and goals, built on NLP intent parsing.</p></div><div class="tg"><span>Python</span><span>NLP</span></div></div>
+<div class="pr"><div class="n">02</div><div><h3 class="s">HR Attrition Dashboard</h3><div class="k">Power BI · HR Analytics</div><p>An interactive dashboard exploring employee attrition in the Sales department — broken down by job role, age, salary, gender and education, with key metrics like attrition rate and tenure.</p></div><div class="tg"><span>Power BI</span><span>DAX</span><span>Excel</span></div></div>
+<div class="pr"><div class="n">03</div><div><h3 class="s">Student Performance Model</h3><div class="k">ML · Prediction</div><p>A decision-tree classifier predicting student performance from academic features, designed so the results stay explainable rather than a black box.</p></div><div class="tg"><span>scikit-learn</span><span>Python</span><span>Streamlit</span></div></div>
+<div class="pr"><div class="n">04</div><div><h3 class="s">Breast MRI Classifier</h3><div class="k">ML · Prediction</div><p> AI in Healthcare: Custom CNN vs. ResNet-50 for MRI Classification</p></div><div class="tg"><span>scikit-learn</span><span>Python</span><span>Streamlit</span></div></div>
+<div class="pr"><div class="n">05</div><div><h3 class="s">Aqari: Tunisia Property Estimator</h3><div class="k">ML · Prediction</div><p> AI in Real Estate: open-source real estate project featuring an end-to-end data pipeline and advanced imputation techniques to forecast property prices across 8,129 listings in Tunisia.</p></div><div class="tg"><span>scikit-learn</span><span>Python</span><span>Streamlit</span></div></div>
+<div class="pr"><div class="n">06</div><div><h3 class="s">Explainable Generative Multi‐Agent System for Clinical Decision
+Support</h3><div class="k">DL · LLM · XAI · LangGraph</div><p> Generative, agentic medical system capable of proposing diagnostic hypotheses while providing verifiable explanations and a clinical confidence score.</p></div><div class="tg"><span>BioBERT</span><span>RAG</span><span>SHAP</span></div></div>
+
+</section>
+
+<section class="sec two" id="experience"><div>
+<div class="hd"><i>Path</i><h2 class="s">Experience</h2></div>
+<div class="tl">
+<div class="it f"><div class="k">Research</div><h4>Medical AI Researcher <span>— RIADI Laboratory</span></h4><p>NLP experiments, dataset design and model evaluation across the lab's research pipeline.</p></div>
+<div class="it"><div class="k">Community</div><h4>Advisor JCI RISE <span>— JCI Grombalia</span></h4><p>Guide local leaders and project teams in designing impactful initiatives focused on economic recovery, workforce empowerment, and community resilience."</p></div>
+
+<div class="it"><div class="k">Internship</div><h4>Backend Developer Intern <span>— StrateGeek</span></h4><p>Built and maintained services, endpoints and database queries on production backends.</p></div>
+<div class="it"><div class="it"><div class="k">Internship</div><h4>Python Developer <span>— OnlineMover</span></h4><p>Shipped features across the stack and connected REST APIs to the front end.</p></div>
+<div class="it"><div class="k">Community</div><h4>Logistics Coordinator <span>— Google Developer Student Club · ISET Nabeul</span></h4><p>Ran event operations and coordination for developer community meetups.</p></div>
+<div class="k">Internship</div><h4>Full-stack Developer Intern <span>— Neopolis development</span></h4><p>Development of a management system for a medical practice (patient management, appointment management, patient file management and prescription management)</p></div>
+
+
+</div></div>
+<div id="skills"><div class="hd"><i>Toolbox</i><h2 class="s">Skills &amp; Education</h2></div>
+<div class="box"><h3 class="s">Skills</h3>
+<div class="sk"><div><span>Python / NLP</span><span>90%</span></div><div class="bar"><i style="width:90%"></i></div></div>
+<div class="sk"><div><span>SQL / Data modeling</span><span>85%</span></div><div class="bar"><i style="width:85%"></i></div></div>
+<div class="sk"><div><span>Power BI / DAX</span><span>80%</span></div><div class="bar"><i style="width:80%"></i></div></div>
+<div class="sk"><div><span>Full-stack / Backend</span><span>75%</span></div><div class="bar"><i style="width:75%"></i></div></div>
+<div class="chips"><span>scikit-learn</span><span>Pandas</span><span>Transformers</span><span>REST APIs</span><span>Git</span><span>Excel</span></div></div>
+<div class="edu"><h3 class="s">Education</h3><div class="tl">
+<div class="it"><div class="k">Master's</div><h4>Smart Systems &amp; Advanced Intelligent Systems — ENSI</h4></div>
+<div class="it"><div class="k">Bachelor's</div><h4>Information Systems Development</h4></div></div></div></div>
+</section>
+
+
+<section class="sec" id="projects"><div class="hd"><i>Selected</i><h2 class="s">Certifications</h2></div>
+<div class="pr"><div class="n">01</div><div><h3 class="s">HCIA-AI V4.0</h3></div><div class="tg"><span>HUAWEI</span></div></div>
+<div class="pr"><div class="n">02</div><div><h3 class="s">Understanding Data Engineering</h3></div><div class="tg"><span>DataCamp</span></div></div>
+<div class="pr"><div class="n">03</div><div><h3 class="s">Data Preparation in Power BI</h3></div><div class="tg"><span>DataCamp</span></div></div>
+<div class="pr"><div class="n">04</div><div><h3 class="s">Developing LLM Applications with LangChain</h3></div><div class="tg"><span>DataCamp</span></div></div>
+<div class="pr"><div class="n">05</div><div><h3 class="s">Artificial Intelligence</h3></div><div class="tg"><span>Orange Digital Center Madagascar</span></div></div>
+<div class="pr"><div class="n">06</div><div><h3 class="s">Digital Marketing</h3></div><div class="tg"><span>HubSpot Academy</span></div></div>
+
+</section>
+
+
+
+<section class="cta2" id="contact"><h2 class="s">Let's build something <em>with your data.</em></h2>
+<p>Open to research collaborations, analytics roles and data internships. Currently writing on Medium @elkamelnada8.</p>
+<div class="cta" style="margin-bottom:0"><a class="pill g" href="https://www.linkedin.com/in/nada-el-kamel-82919a221/" target="_blank" rel="noopener">LinkedIn ↗</a><a class="pill" href="https://medium.com/@elkamelnada8" target="_blank" rel="noopener">Medium ↗</a></div></section>
+<footer><span>© 2026 Nada El Kamel · Tunis, Tunisia</span><span>ENSI Master's student · Medical AI Researcher at RIADI</span></footer>
+</div></body></html>
